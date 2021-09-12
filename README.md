@@ -131,7 +131,7 @@ job.on('init', async () => await Queue.remove(job));
 
 ### Access the queue
 ```js
-const Queue = use('@ioc:Adonis5/Queue');
+const Queue = use('@ioc:Adonis5/Qeo');
 ```
 ### Push job onto the queue
 ```js

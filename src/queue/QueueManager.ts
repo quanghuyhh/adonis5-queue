@@ -2,7 +2,7 @@ import Kue from 'kue-scheduler'
 import { Job } from 'kue-unique'
 import JobMaker from './JobMaker'
 import JobRegister from './JobRegister'
-import { QueueConfig, JobMakerInterface } from '@ioc:Adonis5/Queue'
+import { QueueConfig, JobMakerInterface } from '@ioc:Adonis5/Qeo'
 // import { Queue } from '@ioc:Adonis5/Queue'
 /**
  * Main queue driver

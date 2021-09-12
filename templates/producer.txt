@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events'
-import { ProducerJob } from '@ioc:Adonis5/Queue'
+import { ProducerJob } from '@ioc:Adonis5/Qeo'
 /**
  * Sample job producer class
  *

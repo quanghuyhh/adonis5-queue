@@ -3,7 +3,7 @@ import { Job } from 'kue-unique'
 import KueScheduler from 'kue-scheduler'
 import randomString from 'randomstring'
 import { JobFetchError } from '../errors'
-import { ProducerJob, JobMakerInterface } from '@ioc:Adonis5/Queue'
+import { ProducerJob, JobMakerInterface } from '@ioc:Adonis5/Qeo'
 
 /**
  * Parse producer job contents and generate kue job

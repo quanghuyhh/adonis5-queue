@@ -30,7 +30,7 @@ export default class CommandProvider {
 		// })
 		const queueConfig = this.app.container.use('Adonis/Core/Config').get('queue', {})
 		const appRoot = this.app.appRoot
-		this.app.container.singleton('Adonis5/Queue', () => {
+		this.app.container.singleton('Adonis5/Qeo', () => {
 			return new QueueManager(queueConfig, appRoot)
 		})
 	}

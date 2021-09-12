@@ -1,6 +1,6 @@
 {
   "name": "adonis5-qeo",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Adonis JS 5 queue package based backed by Kue and Kue-scheduler",
   "scripts": {
     "build": "npm run compile && cpx 'templates/**' 'build/templates'",
