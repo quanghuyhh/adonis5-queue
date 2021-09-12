@@ -1,5 +1,5 @@
 {
-  "name": "adonis5-queue",
+  "name": "adonis5-qeo",
   "version": "1.0.7",
   "description": "Adonis JS 5 queue package based backed by Kue and Kue-scheduler",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reg2005/adonis5-queue"
+    "url": "https://github.com/quanghuyhh/adonis5-queue"
   },
   "keywords": [
     "adonis",
@@ -28,20 +28,20 @@
     "kue"
   ],
   "author": {
-    "name": "Evgeniy Rumin",
-    "url": "https://github.com/reg2005",
-    "email": "cmp08@ya.ru"
+    "name": "qhhh",
+    "url": "https://github.com/quanghuyhh",
+    "email": "qhhh@gmail.com"
   },
   "license": "MIT",
   "main": "build/providers/QueueProvider.js",
   "types": "build/typings/QueueConfig.d.ts",
   "devDependencies": {
-    "@adonisjs/ace": "^6.9.3",
-    "@adonisjs/core": "^5.0.0-preview-rc-1.9",
-    "@adonisjs/fold": "^6.3.5",
+    "@adonisjs/ace": "^11.0.4",
+    "@adonisjs/core": "^5.3.2",
+    "@adonisjs/fold": "^8.1.5",
     "@adonisjs/mrm-preset": "^2.3.7",
     "@poppinss/dev-utils": "^1.0.7",
-    "@types/node": "^14.0.18",
+    "@types/node": "*",
     "commitizen": "^4.1.2",
     "cpx": "^1.5.0",
     "cz-conventional-changelog": "^3.2.0",
@@ -59,15 +59,15 @@
     "npm-audit-html": "^1.4.1",
     "prettier": "^2.0.5",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.6"
+    "typescript": "~4.2"
   },
   "dependencies": {
     "@types/kue": "^0.11.13",
     "change-case": "^4.1.1",
     "kue": "^0.11.6",
-    "kue-scheduler": "^0.10.6",
-    "kue-unique": "^1.0.39",
-    "randomstring": "^1.1.5"
+    "kue-scheduler": "^0.10.15",
+    "kue-unique": "^1.2.0",
+    "randomstring": "^1.2.1"
   },
   "husky": {
     "hooks": {
@@ -109,11 +109,11 @@
       ]
     },
     "commands": [
-      "adonis5-queue/build/commands"
+      "adonis5-qeo/build/commands"
     ],
-    "types": "adonis5-queue",
+    "types": "adonis5-qeo",
     "providers": [
-      "adonis5-queue"
+      "adonis5-qeo"
     ],
     "env": {
       "QUEUE_REDIS_HOST": "127.0.0.1",
